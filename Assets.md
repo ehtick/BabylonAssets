@@ -143,6 +143,7 @@
 | cannon<br/>meshes/pirateFort/cannon.glb | ![cannon](https://assets.babylonjs.com/generated/cannon.glb.jpeg) |
 | pirateFort<br/>meshes/pirateFort/pirateFort.glb | ![pirateFort](https://assets.babylonjs.com/generated/pirateFort.glb.jpeg) |
 | powerplant<br/>meshes/PowerPlant/powerplant.obj | ![powerplant](https://assets.babylonjs.com/generated/powerplant.obj.jpeg) |
+| powerplant_glb<br/>meshes/PowerPlant/powerplant.glb | ![powerplant_glb](https://assets.babylonjs.com/generated/powerplant.glb.jpeg) |
 | pumpkinBucketCarved<br/>meshes/pumpkinBucketCarved.glb | ![pumpkinBucketCarved](https://assets.babylonjs.com/generated/pumpkinBucketCarved.glb.jpeg) |
 | Rabbit<br/>meshes/Rabbit.babylon | ![Rabbit](https://assets.babylonjs.com/generated/Rabbit.babylon.jpeg) |
 | roundedCube<br/>meshes/roundedCube.glb | ![roundedCube](https://assets.babylonjs.com/generated/roundedCube.glb.jpeg) |
