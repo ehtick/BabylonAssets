@@ -6,6 +6,13 @@ FBX SDK, so it opens correctly in Maya as well as the Babylon loader.
 
 Generator (not in this repo): `babylon-fbx/tools/fbx-test-generator`.
 
+`fbxVisualTests.js` is the scene-creation script for the Babylon.js visual-regression suite: it loads
+each model here, frames it with the validated per-model camera + a neutral light rig, renders
+single-sided, and pins animations to a deterministic frame. The Babylon.js FBX loader PR references
+its functions via the visualization `config.json` (`scriptToRun` + `functionToCall`). NOTE: fbx2gltf
+drops FBX skeletal animation, so the SDK/Maya-proxy render of `m12_skeletal_anim` shows the rest pose
+(straight); the Babylon loader (and real Maya, when scrubbed) shows the bend.
+
 ## Conventions / expectations
 - **Single-sided**: meshes are wound so the outward face is front-facing. Render with backface
   culling on; a regression that flips winding/normals will show backfaces (inside-out).
